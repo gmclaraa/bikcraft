@@ -10,23 +10,23 @@
 
 /* 16px — Poppins 400 — textos padrão */
 .font-1-s {
-    font: 400 1rem/1.5 "Poppins", sans-serif;
+    font: 500 1rem/1.5 "Poppins", sans-serif;
 }
 
 /* 16px — Roboto 400 — textos padrão */
 .font-2-s {
-    font: 400 1rem/1.5 "Roboto", sans-serif;
+    font: 500 1rem/1.5 "Roboto", sans-serif;
 }
 
 
 /* 18px — Poppins 400 — textos médios */
 .font-1-m-b {
-    font: 400 1.125rem/1.333 "Poppins", sans-serif;
+    font: 600 1.125rem/1.333 "Poppins", sans-serif;
 }
 
 /* 18px — Roboto 500 — textos médios em destaque */
 .font-2-m {
-    font: 500 1.125rem/1.333 "Roboto", sans-serif;
+    font: 400 1.125rem/1.333 "Roboto", sans-serif;
 }
 
 
