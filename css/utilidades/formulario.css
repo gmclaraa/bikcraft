@@ -1,44 +1,56 @@
-.form{
+.form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-.form label{
+.form label {
     display: block;
     font: 600 1rem/1.5 "Poppins", sans-serif;
     margin-bottom: 4px;
 }
 
-.col-2{
+.col-2 {
     grid-column: span 2;
 }
 
 .form input[type="text"],
 .form input[type="email"],
-.form  textarea{
+.form textarea {
     font: 400 1rem/1.5 "Roboto", sans-serif;
     background: var(--cor-1);
     border: 1px solid var(--cor-2);
     border-radius: 4px;
     width: 100%;
-    box-sizing: border-box ;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+    height: 44px;
 }
 
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
-.form  textarea:focus{
+.form textarea:focus {
     outline: none;
     border-color: var(--cor-13);
-    background: var(-cor-0);
+    background: var(--cor-0);
     box-shadow: 0 0 0 2px #fea;
 }
 
-@media(max-width: 600px){
-    .form{
-        grid-template-columns: 1fr ;
+.form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+@media (max-width: 600px) {
+    .form {
+        grid-template-columns: 1fr;
     }
-    .form .col-2{
+
+    .form .col-2 {
         grid-column: 1;
     }
 }
